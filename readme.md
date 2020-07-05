@@ -1,12 +1,9 @@
-/*
-
 Plugin Name: Google reCAPTCHA
+
 Version: 0.2
+
 Description: Include Google reCAPTCHA on login page and/or comment form
 
-*/
-
-/*
     Use:
         - register w/ Google at https://www.google.com/recaptcha/admin#list; get recaptcha keys
         - install plugin and activate
@@ -23,4 +20,4 @@ Description: Include Google reCAPTCHA on login page and/or comment form
         - added recaptcha for login page
         - added options for selecting whether to include recaptcha on comment form and login page
         - minor styling of recaptcha box
-*/
+
