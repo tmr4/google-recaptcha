@@ -58,7 +58,7 @@ add_action('wp_enqueue_scripts', 'enqueue_comment_google_recaptcha');
 // add Google recaptcha box before the comment submit button
 function add_comment_google_recaptcha($submit_field) {
     if( use_comment_recaptcha() ) {
-        $submit_field['submit_field'] = '<div class="g-recaptcha" style="position: absolute" data-sitekey=' . get_option('recaptcha_site_key') . ' data-size="compact" ></div>' . $submit_field['submit_field'];
+        $submit_field['submit_field'] = '<div class="g-recaptcha" style="position: absolute" data-sitekey=' . get_option('recaptcha_site_key') . '></div>' . $submit_field['submit_field'];
 
         return $submit_field;
     }
